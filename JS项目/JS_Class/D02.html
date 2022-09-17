@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Practice</title>
+    <script>
+        function outer(){
+            console.log("out");
+            function inner(){
+                console.log("in");
+            }
+            return inner;
+        }
+
+        var res = outer();
+        res();
+        outer();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

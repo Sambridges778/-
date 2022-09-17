@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //var O1 = {};
+        //var O2 = {
+            //name : 'Sam'
+        //}
+
+        //var O3 = {
+            //name : 'Jack',
+            //age : '20',
+            //gender : '男'
+        //}
+
+        //var O4 = {
+            //name : 'Jhon',
+            //age : '20',
+            //gender  : '男',
+            //sayHello : function(){
+                //console.log('你好')
+            //}
+
+        //var stu = {};//定义一个空对象
+        //添加属性
+        //stu.name = "加加林"
+        //stu.age = 60;
+        //添加方法
+        //stu.sayHi = function(){
+            //c//onsole.log("我叫" + this.name);
+        //}
+        //console.log(stu.name);
+        //console.log(stu['age']);
+        //stu.sayHi();
+        //stu['sayHi']();
+
+        ///ar a = '1';
+        //var a,b;
+        //console.log(a,b);
+
+        //var Car = function(){
+            //this.price =1800;
+        //}
+
+        //function Car() {
+            //this.price = 1800;
+        //}
+
+        //var c = new Car();
+        //console.log(c.price);
+
+        //function Student (name,height) {
+           // this.name = name;
+           // this.height = height;
+       // }
+
+       // var boy = new Student ('David',190);
+        //console.log(boy.name);
+       // console.log(boy.height);
+
+       // var girl = new Student('Lucy',165);
+       // console.log(girl.name);
+       // console.log(girl.height);
+       
+
+        function Student(){
+
+        };
+        Student.Name = 'David';
+        Student.Gender = 'Man';
+        Student.sayHello = function(){
+            console.log("Hello");
+        }
+        console.log(Student.Name + "," + Student.Gender);
+        delete Student.name;
+        console.log(Student.Name);
+        Student.sayHello();
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
